@@ -1,0 +1,974 @@
+{
+    "total": 16,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 16
+    },
+    "effortTotal": 90,
+    "debtTotal": 90,
+    "issues": [
+        {
+            "key": "AYqGC6kh6JcGxmGjR0IG",
+            "rule": "swift:S1135",
+            "severity": "INFO",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Messaging/GleanPlumbMessageManager.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 114,
+            "hash": "54145856d819209f79705d13f372dcb8",
+            "textRange": {
+                "startLine": 114,
+                "endLine": 114,
+                "startOffset": 0,
+                "endOffset": 85
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Complete the task associated to this \"TODO\" comment.",
+            "effort": "0min",
+            "debt": "0min",
+            "author": "jhugman@users.noreply.github.com",
+            "tags": [
+                "cwe"
+            ],
+            "creationDate": "2023-07-11T15:16:38+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6mG6JcGxmGjR0It",
+            "rule": "swift:S4144",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/SettingsCoordinator.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 331,
+            "hash": "6cfaa5cc161a85761a34512d64f88fc3",
+            "textRange": {
+                "startLine": 331,
+                "endLine": 331,
+                "startOffset": 9,
+                "endOffset": 26
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/SettingsCoordinator.swift",
+                            "textRange": {
+                                "startLine": 324,
+                                "endLine": 324,
+                                "startOffset": 9,
+                                "endOffset": 23
+                            },
+                            "msg": "original implementation"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Update this function so that its implementation is not identical to \"pressedLicense\" on line 324.",
+            "effort": "15min",
+            "debt": "15min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "confusing",
+                "duplicate",
+                "suspicious"
+            ],
+            "creationDate": "2023-07-04T21:46:42+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6mG6JcGxmGjR0Iu",
+            "rule": "swift:S1301",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/SettingsCoordinator.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 59,
+            "hash": "b27bbb01ad5fdd8d359b5f5631a7ccfa",
+            "textRange": {
+                "startLine": 59,
+                "endLine": 59,
+                "startOffset": 8,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this \"switch\" statement with \"if\" statement to increase readability.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "bad-practice"
+            ],
+            "creationDate": "2023-06-21T15:55:57+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6lk6JcGxmGjR0Ir",
+            "rule": "swift:S3776",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 19,
+            "hash": "da80035ed9e4d51e702b164cf0227512",
+            "textRange": {
+                "startLine": 19,
+                "endLine": 19,
+                "startOffset": 9,
+                "endOffset": 18
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 20,
+                                "endLine": 20,
+                                "startOffset": 8,
+                                "endOffset": 13
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 22,
+                                "endLine": 22,
+                                "startOffset": 8,
+                                "endOffset": 10
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 30,
+                                "endLine": 30,
+                                "startOffset": 12,
+                                "endOffset": 18
+                            },
+                            "msg": "+2 (incl. 1 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 34,
+                                "endLine": 34,
+                                "startOffset": 16,
+                                "endOffset": 21
+                            },
+                            "msg": "+3 (incl. 2 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 38,
+                                "endLine": 38,
+                                "startOffset": 16,
+                                "endOffset": 18
+                            },
+                            "msg": "+3 (incl. 2 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 40,
+                                "endLine": 40,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 42,
+                                "endLine": 42,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 44,
+                                "endLine": 44,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 46,
+                                "endLine": 46,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 76,
+                                "endLine": 76,
+                                "startOffset": 16,
+                                "endOffset": 18
+                            },
+                            "msg": "+3 (incl. 2 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 79,
+                                "endLine": 79,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 91,
+                                "endLine": 91,
+                                "startOffset": 16,
+                                "endOffset": 18
+                            },
+                            "msg": "+3 (incl. 2 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 93,
+                                "endLine": 93,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 100,
+                                "endLine": 100,
+                                "startOffset": 16,
+                                "endOffset": 18
+                            },
+                            "msg": "+3 (incl. 2 for nesting)"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 103,
+                                "endLine": 103,
+                                "startOffset": 18,
+                                "endOffset": 22
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 110,
+                                "endLine": 110,
+                                "startOffset": 10,
+                                "endOffset": 14
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 115,
+                                "endLine": 115,
+                                "startOffset": 10,
+                                "endOffset": 14
+                            },
+                            "msg": "+1"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+            "effort": "18min",
+            "debt": "18min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "brain-overload"
+            ],
+            "creationDate": "2023-06-20T20:36:39+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FOCUSED",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6lz6JcGxmGjR0Is",
+            "rule": "swift:S1301",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/Scene/SceneCoordinator.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 38,
+            "hash": "b27bbb01ad5fdd8d359b5f5631a7ccfa",
+            "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 8,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this \"switch\" statement with \"if\" statement to increase readability.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "bad-practice"
+            ],
+            "creationDate": "2023-06-20T20:36:39+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6lk6JcGxmGjR0Iq",
+            "rule": "swift:S1117",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 26,
+            "hash": "37b46f6a31a608b5ad9e14478f60eee7",
+            "textRange": {
+                "startLine": 26,
+                "endLine": 26,
+                "startOffset": 16,
+                "endOffset": 25
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+                            "textRange": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "startOffset": 16,
+                                "endOffset": 25
+                            },
+                            "msg": "Shadowed field."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Rename \"isPrivate\" which has the same name as the field declared at line 10.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "pitfall",
+                "suspicious"
+            ],
+            "creationDate": "2023-06-19T18:18:48+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6lk6JcGxmGjR0Ip",
+            "rule": "swift:S1075",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 33,
+            "hash": "c20b7b0ed17f47ec17ae40b8769b3e61",
+            "textRange": {
+                "startLine": 33,
+                "endLine": 33,
+                "startOffset": 58,
+                "endOffset": 61
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this hard-coded path-delimiter.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [],
+            "creationDate": "2023-04-12T17:53:34+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ko6JcGxmGjR0IK",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 14,
+            "hash": "73b6390cc200b19ae151a8ff05702e20",
+            "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 12,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NIMBUS_IS_FIRST_RUN_KEY\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "jhugman@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-01-23T22:29:06+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6mt6JcGxmGjR0I1",
+            "rule": "swift:S122",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/FeatureFlags/LegacyFeatureFlagsManager.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 102,
+            "hash": "0b1df208ee365d35a9ef09835aef029e",
+            "textRange": {
+                "startLine": 102,
+                "endLine": 102,
+                "startOffset": 0,
+                "endOffset": 64
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Reformat the code to have only one statement per line.",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "11182210+electricrgb@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2022-05-11T16:30:40+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FORMATTED",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6kh6JcGxmGjR0IF",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Messaging/GleanPlumbMessageManager.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 91,
+            "hash": "490d0761f815ac8d1377688202d9d480",
+            "textRange": {
+                "startLine": 91,
+                "endLine": 91,
+                "startOffset": 21,
+                "endOffset": 24
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this function is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "nishantpatel2718@gmail.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-05-02T20:22:51+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6kT6JcGxmGjR0IE",
+            "rule": "swift:S122",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Messaging/GleanPlumbMessageStore.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 42,
+            "hash": "daf00da571ee9efaff414833c0c98881",
+            "textRange": {
+                "startLine": 42,
+                "endLine": 42,
+                "startOffset": 0,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Reformat the code to have only one statement per line.",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "nishantpatel2718@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2022-05-02T20:22:51+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FORMATTED",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ko6JcGxmGjR0IJ",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 13,
+            "hash": "e8e7a3de25de8a2a88b614e14329110b",
+            "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 12,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NIMBUS_USE_PREVIEW_COLLECTION_KEY\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "tlong@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2021-06-22T20:56:35+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ko6JcGxmGjR0II",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 12,
+            "hash": "2e1a9618df90d0cf862f946fd398e80d",
+            "textRange": {
+                "startLine": 12,
+                "endLine": 12,
+                "startOffset": 12,
+                "endOffset": 33
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NIMBUS_LOCAL_DATA_KEY\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "jeff@jeffboek.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2021-05-21T21:40:49+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6kH6JcGxmGjR0ID",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Settings/Views/ExperimentsTableView.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 18,
+            "hash": "a476c81b7c68966abb7b1288a3eb416a",
+            "textRange": {
+                "startLine": 18,
+                "endLine": 18,
+                "startOffset": 15,
+                "endOffset": 29
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"CellIdentifier\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "jeff@jeffboek.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2021-05-21T21:40:49+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ko6JcGxmGjR0IH",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 11,
+            "hash": "8bcf318e6554f1c5474ed0bb143d5512",
+            "textRange": {
+                "startLine": 11,
+                "endLine": 11,
+                "startOffset": 12,
+                "endOffset": 26
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NIMBUS_URL_KEY\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "jeff@jeffboek.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2021-04-02T01:43:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ko6JcGxmGjR0IL",
+            "rule": "swift:S1117",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 101,
+            "hash": "7fc09cb225e437a63bb85f3f2b439b21",
+            "textRange": {
+                "startLine": 101,
+                "endLine": 101,
+                "startOffset": 12,
+                "endOffset": 18
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+                            "textRange": {
+                                "startLine": 87,
+                                "endLine": 87,
+                                "startOffset": 15,
+                                "endOffset": 21
+                            },
+                            "msg": "Shadowed field."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Rename \"dbPath\" which has the same name as the field declared at line 87.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "jhugman@users.noreply.github.com",
+            "tags": [
+                "pitfall",
+                "suspicious"
+            ],
+            "creationDate": "2021-03-31T15:31:41+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios",
+            "uuid": "AYqGCOwWPHy7vu7Sk3ow",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "firefox-ios",
+            "longName": "firefox-ios"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/FeatureFlags/LegacyFeatureFlagsManager.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzU0",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "LegacyFeatureFlagsManager.swift",
+            "longName": "Client/FeatureFlags/LegacyFeatureFlagsManager.swift",
+            "path": "Client/FeatureFlags/LegacyFeatureFlagsManager.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Coordinators/Router/RouteBuilder.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzUP",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "RouteBuilder.swift",
+            "longName": "Client/Coordinators/Router/RouteBuilder.swift",
+            "path": "Client/Coordinators/Router/RouteBuilder.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Experiments/Messaging/GleanPlumbMessageManager.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzT2",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "GleanPlumbMessageManager.swift",
+            "longName": "Client/Experiments/Messaging/GleanPlumbMessageManager.swift",
+            "path": "Client/Experiments/Messaging/GleanPlumbMessageManager.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Experiments/Settings/Views/ExperimentsTableView.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzTq",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ExperimentsTableView.swift",
+            "longName": "Client/Experiments/Settings/Views/ExperimentsTableView.swift",
+            "path": "Client/Experiments/Settings/Views/ExperimentsTableView.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Experiments/Experiments.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzT5",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "Experiments.swift",
+            "longName": "Client/Experiments/Experiments.swift",
+            "path": "Client/Experiments/Experiments.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Experiments/Messaging/GleanPlumbMessageStore.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzTx",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "GleanPlumbMessageStore.swift",
+            "longName": "Client/Experiments/Messaging/GleanPlumbMessageStore.swift",
+            "path": "Client/Experiments/Messaging/GleanPlumbMessageStore.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Coordinators/SettingsCoordinator.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzUh",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SettingsCoordinator.swift",
+            "longName": "Client/Coordinators/SettingsCoordinator.swift",
+            "path": "Client/Coordinators/SettingsCoordinator.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Coordinators/Scene/SceneCoordinator.swift",
+            "uuid": "AYqGC5X76JcGxmGjRzUX",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SceneCoordinator.swift",
+            "longName": "Client/Coordinators/Scene/SceneCoordinator.swift",
+            "path": "Client/Coordinators/Scene/SceneCoordinator.swift"
+        }
+    ],
+    "organizations": [
+        {
+            "key": "lucasasantana",
+            "name": "Lucas Antevere Santana"
+        }
+    ],
+    "facets": []
+}

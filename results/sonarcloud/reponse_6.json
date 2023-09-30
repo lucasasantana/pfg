@@ -1,0 +1,1233 @@
+{
+    "total": 28,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 28
+    },
+    "effortTotal": 238,
+    "debtTotal": 238,
+    "issues": [
+        {
+            "key": "AYqGC6MN6JcGxmGjRzxY",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketStandardCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 29,
+            "hash": "2bfa94cd3751a5195087f9f943e9ca90",
+            "textRange": {
+                "startLine": 29,
+                "endLine": 29,
+                "startOffset": 54,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-27T21:38:23+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Li6JcGxmGjRzxO",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 55,
+            "hash": "5a762a33e2d0f062eb4023081a026fd7",
+            "textRange": {
+                "startLine": 55,
+                "endLine": 55,
+                "startOffset": 50,
+                "endOffset": 58
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-27T20:20:16+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Li6JcGxmGjRzxP",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 56,
+            "hash": "941905295f6c131fa56beb0154b36124",
+            "textRange": {
+                "startLine": 56,
+                "endLine": 56,
+                "startOffset": 56,
+                "endOffset": 64
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-27T20:20:16+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Lo6JcGxmGjRzxR",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/SyncedTabCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 49,
+            "hash": "90e7ac8355c5d7323aaa58b96e5e07b6",
+            "textRange": {
+                "startLine": 49,
+                "endLine": 49,
+                "startOffset": 53,
+                "endOffset": 61
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-27T20:20:16+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6KA6JcGxmGjRzw_",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/Cell/TopSiteItemCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 38,
+            "hash": "c2f81d0b6c6c26c4068acef99b3f13dc",
+            "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 50,
+                "endOffset": 58
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-27T14:58:43+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6M-6JcGxmGjRzxj",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/RecentlySaved/RecentlySavedCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 26,
+            "hash": "2bfa94cd3751a5195087f9f943e9ca90",
+            "textRange": {
+                "startLine": 26,
+                "endLine": 26,
+                "startOffset": 54,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-12-16T00:03:28+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Li6JcGxmGjRzxQ",
+            "rule": "swift:S1301",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 247,
+            "hash": "007330a4f6e9cc92710acc57c5eed550",
+            "textRange": {
+                "startLine": 247,
+                "endLine": 247,
+                "startOffset": 12,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this \"switch\" statement with \"if\" statement to increase readability.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "bad-practice"
+            ],
+            "creationDate": "2022-12-07T23:27:44+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Mv6JcGxmGjRzxh",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModelProtocol.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 59,
+            "hash": "b110238e99b7e6d82a3a9de187776dcd",
+            "textRange": {
+                "startLine": 59,
+                "endLine": 59,
+                "startOffset": 51,
+                "endOffset": 53
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this function is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-11-25T20:25:53+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Lw6JcGxmGjRzxT",
+            "rule": "swift:S122",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift",
+            "project": "lucasasantana_firefox-ios",
+            "hash": "09162da06feff494cdbc31f07b2b42a2",
+            "textRange": {
+                "startLine": 210,
+                "endLine": 210,
+                "startOffset": 0,
+                "endOffset": 97
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Reformat the code to have only one statement per line.",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2022-11-02T21:31:59+0100",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "closeDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FORMATTED",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Lw6JcGxmGjRzxU",
+            "rule": "swift:S122",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift",
+            "project": "lucasasantana_firefox-ios",
+            "hash": "28a5536072f2ba4ab20db726d10617f2",
+            "textRange": {
+                "startLine": 214,
+                "endLine": 214,
+                "startOffset": 0,
+                "endOffset": 57
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Reformat the code to have only one statement per line.",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2022-11-02T21:31:59+0100",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "closeDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FORMATTED",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Mv6JcGxmGjRzxi",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModelProtocol.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 61,
+            "hash": "53a5fda352be22f71d08290cc27e41d0",
+            "textRange": {
+                "startLine": 61,
+                "endLine": 61,
+                "startOffset": 26,
+                "endOffset": 28
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this function is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-10-04T22:43:31+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Nb6JcGxmGjRzxl",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewController.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 40,
+            "hash": "1ded3c05b953836770041a91b009d684",
+            "textRange": {
+                "startLine": 40,
+                "endLine": 40,
+                "startOffset": 69,
+                "endOffset": 77
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "11182210+electricrgb@users.noreply.github.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-09-01T20:38:40+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Nb6JcGxmGjRzxm",
+            "rule": "swift:S1117",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewController.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 365,
+            "hash": "7dea9661b302421cc0444a84cff6396e",
+            "textRange": {
+                "startLine": 365,
+                "endLine": 365,
+                "startOffset": 12,
+                "endOffset": 21
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewController.swift",
+                            "textRange": {
+                                "startLine": 35,
+                                "endLine": 35,
+                                "startOffset": 16,
+                                "endOffset": 25
+                            },
+                            "msg": "Shadowed field."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Rename \"viewModel\" which has the same name as the field declared at line 35.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "pitfall",
+                "suspicious"
+            ],
+            "creationDate": "2022-08-23T20:30:26+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6LJ6JcGxmGjRzxM",
+            "rule": "swift:S1117",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 20,
+            "hash": "b4724f33a47f3075b7de9443a1791bea",
+            "textRange": {
+                "startLine": 20,
+                "endLine": 20,
+                "startOffset": 12,
+                "endOffset": 17
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+                            "textRange": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "startOffset": 8,
+                                "endOffset": 13
+                            },
+                            "msg": "Shadowed field."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Rename \"start\" which has the same name as the field declared at line 15.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "pitfall",
+                "suspicious"
+            ],
+            "creationDate": "2022-08-19T16:04:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6LJ6JcGxmGjRzxL",
+            "rule": "swift:S1117",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 21,
+            "hash": "68b72b71654eb1339ded70be717d6779",
+            "textRange": {
+                "startLine": 21,
+                "endLine": 21,
+                "startOffset": 12,
+                "endOffset": 15
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+                            "textRange": {
+                                "startLine": 16,
+                                "endLine": 16,
+                                "startOffset": 8,
+                                "endOffset": 11
+                            },
+                            "msg": "Shadowed field."
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Rename \"end\" which has the same name as the field declared at line 16.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "pitfall",
+                "suspicious"
+            ],
+            "creationDate": "2022-08-19T16:04:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6MF6JcGxmGjRzxX",
+            "rule": "swift:S1301",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketDataAdaptor.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 55,
+            "hash": "007330a4f6e9cc92710acc57c5eed550",
+            "textRange": {
+                "startLine": 55,
+                "endLine": 55,
+                "startOffset": 8,
+                "endOffset": 14
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this \"switch\" statement with \"if\" statement to increase readability.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "bad-practice"
+            ],
+            "creationDate": "2022-08-11T18:11:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6L_6JcGxmGjRzxW",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketStandardCellViewModel.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 31,
+            "hash": "2e2abcd04179fde9b3b886ac38e2c90d",
+            "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 37,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this closure is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-08-11T18:11:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6La6JcGxmGjRzxN",
+            "rule": "swift:S1871",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Data/JumpBackInDataAdaptor.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 184,
+            "hash": "1cda7ba43473c2acc4d2f17500d431b4",
+            "textRange": {
+                "startLine": 184,
+                "endLine": 186,
+                "startOffset": 19,
+                "endOffset": 13
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Either merge this branch with the identical one on line 181 or change one of the implementations.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "design",
+                "suspicious"
+            ],
+            "creationDate": "2022-08-09T22:30:52+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Lo6JcGxmGjRzxS",
+            "rule": "swift:S1301",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/SyncedTabCell.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 353,
+            "hash": "007330a4f6e9cc92710acc57c5eed550",
+            "textRange": {
+                "startLine": 353,
+                "endLine": 353,
+                "startOffset": 12,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Replace this \"switch\" statement with \"if\" statement to increase readability.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "bad-practice"
+            ],
+            "creationDate": "2022-07-27T17:33:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Lw6JcGxmGjRzxV",
+            "rule": "swift:S107",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 49,
+            "hash": "832c2ffb2f72d849b9ee3d0ecdf937e4",
+            "textRange": {
+                "startLine": 49,
+                "endLine": 49,
+                "startOffset": 4,
+                "endOffset": 8
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Initializer has 8 parameters, which is greater than the 7 authorized.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "terinopace@gmail.com",
+            "tags": [
+                "brain-overload"
+            ],
+            "creationDate": "2022-06-01T23:59:06+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FOCUSED",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Jz6JcGxmGjRzw8",
+            "rule": "swift:S1075",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 27,
+            "hash": "2d1098adc778640cd487092fbcc9e0c5",
+            "textRange": {
+                "startLine": 27,
+                "endLine": 27,
+                "startOffset": 53,
+                "endOffset": 100
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Refactor your code to get this URI from a customizable parameter.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [],
+            "creationDate": "2022-05-11T21:23:45+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Jz6JcGxmGjRzw9",
+            "rule": "swift:S1075",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 28,
+            "hash": "954289c508647bb35575ef4a38bd99be",
+            "textRange": {
+                "startLine": 28,
+                "endLine": 28,
+                "startOffset": 48,
+                "endOffset": 117
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Refactor your code to get this URI from a customizable parameter.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [],
+            "creationDate": "2022-05-11T21:23:45+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Jz6JcGxmGjRzw-",
+            "rule": "swift:S122",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 104,
+            "hash": "450039b88d94da9c04d5e2f73ff79c04",
+            "textRange": {
+                "startLine": 104,
+                "endLine": 104,
+                "startOffset": 0,
+                "endOffset": 138
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Reformat the code to have only one statement per line.",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2022-05-11T21:23:45+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FORMATTED",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Mv6JcGxmGjRzxg",
+            "rule": "swift:S1186",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModelProtocol.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 54,
+            "hash": "23c7d5cbab80be64a49501fba4458d7b",
+            "textRange": {
+                "startLine": 54,
+                "endLine": 54,
+                "startOffset": 56,
+                "endOffset": 58
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a nested comment explaining why this function is empty, or complete the implementation.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "suspicious"
+            ],
+            "creationDate": "2022-03-17T18:50:33+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Js6JcGxmGjRzw6",
+            "rule": "swift:S1075",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/GoogleTopSiteManager.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 16,
+            "hash": "295349579c2be557341c019ead3fdac3",
+            "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 27,
+                "endOffset": 89
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Refactor your code to get this URI from a customizable parameter.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [],
+            "creationDate": "2022-03-17T18:50:33+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Js6JcGxmGjRzw7",
+            "rule": "swift:S1075",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/GoogleTopSiteManager.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 17,
+            "hash": "daec3d7097247da7c3f970c28800375e",
+            "textRange": {
+                "startLine": 17,
+                "endLine": 17,
+                "startOffset": 28,
+                "endOffset": 88
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Refactor your code to get this URI from a customizable parameter.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [],
+            "creationDate": "2022-03-17T18:50:33+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6NK6JcGxmGjRzxk",
+            "rule": "swift:S107",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModel.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 104,
+            "hash": "a167a01bcda8892ee0a666e75e32e452",
+            "textRange": {
+                "startLine": 104,
+                "endLine": 104,
+                "startOffset": 4,
+                "endOffset": 8
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Initializer has 8 parameters, which is greater than the 7 authorized.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "yriosdiaz@mozilla.com",
+            "tags": [
+                "brain-overload"
+            ],
+            "creationDate": "2022-02-22T15:54:14+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FOCUSED",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Nb6JcGxmGjRzxn",
+            "rule": "swift:S107",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewController.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 62,
+            "hash": "a167a01bcda8892ee0a666e75e32e452",
+            "textRange": {
+                "startLine": 62,
+                "endLine": 62,
+                "startOffset": 4,
+                "endOffset": 8
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Initializer has 9 parameters, which is greater than the 7 authorized.",
+            "effort": "20min",
+            "debt": "20min",
+            "author": "11182210+electricrgb@users.noreply.github.com",
+            "tags": [
+                "brain-overload"
+            ],
+            "creationDate": "2022-02-02T19:00:31+0100",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "FOCUSED",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/SyncedTabCell.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM2",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "SyncedTabCell.swift",
+            "longName": "Client/Frontend/Home/JumpBackIn/Cell/SyncedTabCell.swift",
+            "path": "Client/Frontend/Home/JumpBackIn/Cell/SyncedTabCell.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM1",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "JumpBackInCell.swift",
+            "longName": "Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift",
+            "path": "Client/Frontend/Home/JumpBackIn/Cell/JumpBackInCell.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios",
+            "uuid": "AYqGCOwWPHy7vu7Sk3ow",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "firefox-ios",
+            "longName": "firefox-ios"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketStandardCellViewModel.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM7",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PocketStandardCellViewModel.swift",
+            "longName": "Client/Frontend/Home/Pocket/PocketStandardCellViewModel.swift",
+            "path": "Client/Frontend/Home/Pocket/PocketStandardCellViewModel.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModel.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzNV",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "HomepageViewModel.swift",
+            "longName": "Client/Frontend/Home/HomepageViewModel.swift",
+            "path": "Client/Frontend/Home/HomepageViewModel.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM4",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "JumpBackInViewModel.swift",
+            "longName": "Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift",
+            "path": "Client/Frontend/Home/JumpBackIn/JumpBackInViewModel.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/Cell/TopSiteItemCell.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzMJ",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "TopSiteItemCell.swift",
+            "longName": "Client/Frontend/Home/TopSites/Cell/TopSiteItemCell.swift",
+            "path": "Client/Frontend/Home/TopSites/Cell/TopSiteItemCell.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewModelProtocol.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzNI",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "HomepageViewModelProtocol.swift",
+            "longName": "Client/Frontend/Home/HomepageViewModelProtocol.swift",
+            "path": "Client/Frontend/Home/HomepageViewModelProtocol.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/RecentlySaved/RecentlySavedCell.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzNP",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "RecentlySavedCell.swift",
+            "longName": "Client/Frontend/Home/RecentlySaved/RecentlySavedCell.swift",
+            "path": "Client/Frontend/Home/RecentlySaved/RecentlySavedCell.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzMn",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "WallpaperCollectionAvailability.swift",
+            "longName": "Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift",
+            "path": "Client/Frontend/Home/Wallpapers/v1/Models/WallpaperCollectionAvailability.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketStandardCell.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM-",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PocketStandardCell.swift",
+            "longName": "Client/Frontend/Home/Pocket/PocketStandardCell.swift",
+            "path": "Client/Frontend/Home/Pocket/PocketStandardCell.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/GoogleTopSiteManager.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzMB",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "GoogleTopSiteManager.swift",
+            "longName": "Client/Frontend/Home/TopSites/DataManagement/GoogleTopSiteManager.swift",
+            "path": "Client/Frontend/Home/TopSites/DataManagement/GoogleTopSiteManager.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/HomepageViewController.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzNa",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "HomepageViewController.swift",
+            "longName": "Client/Frontend/Home/HomepageViewController.swift",
+            "path": "Client/Frontend/Home/HomepageViewController.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzMD",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "ContileProvider.swift",
+            "longName": "Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift",
+            "path": "Client/Frontend/Home/TopSites/DataManagement/ContileProvider.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/JumpBackIn/Data/JumpBackInDataAdaptor.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzMy",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "JumpBackInDataAdaptor.swift",
+            "longName": "Client/Frontend/Home/JumpBackIn/Data/JumpBackInDataAdaptor.swift",
+            "path": "Client/Frontend/Home/JumpBackIn/Data/JumpBackInDataAdaptor.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Home/Pocket/PocketDataAdaptor.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzM8",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "PocketDataAdaptor.swift",
+            "longName": "Client/Frontend/Home/Pocket/PocketDataAdaptor.swift",
+            "path": "Client/Frontend/Home/Pocket/PocketDataAdaptor.swift"
+        }
+    ],
+    "organizations": [
+        {
+            "key": "lucasasantana",
+            "name": "Lucas Antevere Santana"
+        }
+    ],
+    "facets": []
+}

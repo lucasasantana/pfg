@@ -1,0 +1,3863 @@
+{
+    "total": 970,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 970
+    },
+    "effortTotal": 2143,
+    "debtTotal": 2143,
+    "issues": [
+        {
+            "key": "AYqq3oxolsF7a3CJzR2f",
+            "rule": "swift:S1172",
+            "severity": "MAJOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 37,
+            "hash": "82e5a23feb757c85cd48698c813cd1b4",
+            "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 4,
+                "endOffset": 21
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove the unused function parameter \"lastUsedInVersion\".",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxnlsF7a3CJzR1v",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3574,
+            "hash": "66e279c16b4a1900e01ec464f28ec143",
+            "textRange": {
+                "startLine": 3574,
+                "endLine": 3574,
+                "startOffset": 26,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SheetHeaderTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1w",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3579,
+            "hash": "134eb6a1d807c37f890f4bdac49d7948",
+            "textRange": {
+                "startLine": 3579,
+                "endLine": 3579,
+                "startOffset": 26,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReliabilityCardTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1x",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3584,
+            "hash": "7e69b7276c7e861c6445da864d963afa",
+            "textRange": {
+                "startLine": 3584,
+                "endLine": 3584,
+                "startOffset": 26,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReliabilityRatingAB\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1y",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3589,
+            "hash": "34da97d01f8c46ae82dcb5303e7c1b5a",
+            "textRange": {
+                "startLine": 3589,
+                "endLine": 3589,
+                "startOffset": 26,
+                "endOffset": 44
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReliabilityRatingC\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1z",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3594,
+            "hash": "d1f0c1b45ad48d39b98329097720caf9",
+            "textRange": {
+                "startLine": 3594,
+                "endLine": 3594,
+                "startOffset": 26,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReliabilityRatingDF\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR10",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3599,
+            "hash": "dda41ba336cd4de9bb4d110f06d500ea",
+            "textRange": {
+                "startLine": 3599,
+                "endLine": 3599,
+                "startOffset": 26,
+                "endOffset": 40
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ErrorCardTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR11",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3604,
+            "hash": "1661ec2fc533c0d8af8fff0e645a9193",
+            "textRange": {
+                "startLine": 3604,
+                "endLine": 3604,
+                "startOffset": 26,
+                "endOffset": 47
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ConfirmationCardTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR12",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3609,
+            "hash": "a148b3c94e554b5ac4649fd28c23e66f",
+            "textRange": {
+                "startLine": 3609,
+                "endLine": 3609,
+                "startOffset": 26,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ConfirmationCardButtonText\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR13",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3614,
+            "hash": "1658f32d66cce8868abe7d29918317c7",
+            "textRange": {
+                "startLine": 3614,
+                "endLine": 3614,
+                "startOffset": 26,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ErrorCardDescription\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR14",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3619,
+            "hash": "fde8ceb53d131afa105fc6048663a51c",
+            "textRange": {
+                "startLine": 3619,
+                "endLine": 3619,
+                "startOffset": 26,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ErrorCardButtonText\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR15",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3624,
+            "hash": "3ba1cff8dfc01d1d4bbbea3f05066bb6",
+            "textRange": {
+                "startLine": 3624,
+                "endLine": 3624,
+                "startOffset": 26,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR16",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3629,
+            "hash": "efebfc47a2b2df350e245949f74f746a",
+            "textRange": {
+                "startLine": 3629,
+                "endLine": 3629,
+                "startOffset": 26,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardMoreButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR17",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3634,
+            "hash": "4563d6caddaf5a60b919907a58c40951",
+            "textRange": {
+                "startLine": 3634,
+                "endLine": 3634,
+                "startOffset": 26,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardLessButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR18",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3639,
+            "hash": "212d3a4fbe705a2594de3adb9610d663",
+            "textRange": {
+                "startLine": 3639,
+                "endLine": 3639,
+                "startOffset": 26,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"AdjustedRatingTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR19",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3644,
+            "hash": "76242b69b2340cae6b3a82844e2ba369",
+            "textRange": {
+                "startLine": 3644,
+                "endLine": 3644,
+                "startOffset": 26,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"AdjustedRatingDescription\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1-",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3649,
+            "hash": "f4d8a8344f851ca6bbbd25e7e4d0d9e7",
+            "textRange": {
+                "startLine": 3649,
+                "endLine": 3649,
+                "startOffset": 26,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"AdjustedRatingStarsAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "litianu.razvan@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR1_",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3654,
+            "hash": "d925939c144ca3a836ccfe73b4916fa2",
+            "textRange": {
+                "startLine": 3654,
+                "endLine": 3654,
+                "startOffset": 26,
+                "endOffset": 50
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardPriceTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2d",
+            "rule": "swift:S1192",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3658,
+            "hash": "a0ced3f4f6b819035cb343e5222f6745",
+            "textRange": {
+                "startLine": 3658,
+                "endLine": 3658,
+                "startOffset": 21,
+                "endOffset": 116
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 3663,
+                                "endLine": 3663,
+                                "startOffset": 21,
+                                "endOffset": 116
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 3668,
+                                "endLine": 3668,
+                                "startOffset": 21,
+                                "endOffset": 116
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 3673,
+                                "endLine": 3673,
+                                "startOffset": 21,
+                                "endOffset": 116
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 3678,
+                                "endLine": 3678,
+                                "startOffset": 21,
+                                "endOffset": 116
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal 5 times.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2A",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3659,
+            "hash": "6d47a280b9c76c54c7db57acebc2ebfd",
+            "textRange": {
+                "startLine": 3659,
+                "endLine": 3659,
+                "startOffset": 26,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardQualityTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2B",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3664,
+            "hash": "52af53066cc1d005f3b63909efcc6162",
+            "textRange": {
+                "startLine": 3664,
+                "endLine": 3664,
+                "startOffset": 26,
+                "endOffset": 53
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardShippingTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2C",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3669,
+            "hash": "54ee132c8ec63bec46992b5ab5f35d7a",
+            "textRange": {
+                "startLine": 3669,
+                "endLine": 3669,
+                "startOffset": 26,
+                "endOffset": 60
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardCompetitivenessTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2D",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3674,
+            "hash": "4f7d6158afca2d1a006ffd07c8df1e4a",
+            "textRange": {
+                "startLine": 3674,
+                "endLine": 3674,
+                "startOffset": 26,
+                "endOffset": 54
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"HighlightsCardPackagingTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2E",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3679,
+            "hash": "11ff270b3f7b520d719a685ed3b8248c",
+            "textRange": {
+                "startLine": 3679,
+                "endLine": 3679,
+                "startOffset": 26,
+                "endOffset": 48
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SettingsCardLabelTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2F",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3684,
+            "hash": "db07915b53c191d5e7d5aa12d449008a",
+            "textRange": {
+                "startLine": 3684,
+                "endLine": 3684,
+                "startOffset": 26,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SettingsCardRecommendedProductsLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2G",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3689,
+            "hash": "47ea30b875516a4413191a783dfc7271",
+            "textRange": {
+                "startLine": 3689,
+                "endLine": 3689,
+                "startOffset": 26,
+                "endOffset": 51
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SettingsCardTurnOffButton\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2H",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3694,
+            "hash": "055957a1df32a14a2cd9593a5b18eae1",
+            "textRange": {
+                "startLine": 3694,
+                "endLine": 3694,
+                "startOffset": 26,
+                "endOffset": 64
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SettingsCardExpandedAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2I",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3699,
+            "hash": "a51e69e439e35fc82fd4768ba399c7fc",
+            "textRange": {
+                "startLine": 3699,
+                "endLine": 3699,
+                "startOffset": 26,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SettingsCardCollapsedAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2J",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3704,
+            "hash": "5f45fd03951c25583c2f28449d896891",
+            "textRange": {
+                "startLine": 3704,
+                "endLine": 3704,
+                "startOffset": 26,
+                "endOffset": 58
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NoAnalysisCardHeadlineLabelTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2K",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3709,
+            "hash": "b4f6b279223012645790388bed6dd7d7",
+            "textRange": {
+                "startLine": 3709,
+                "endLine": 3709,
+                "startOffset": 26,
+                "endOffset": 54
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NoAnalysisCardBodyLabelTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2L",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3714,
+            "hash": "f8cc507579c43bbdc44a88adf26273da",
+            "textRange": {
+                "startLine": 3714,
+                "endLine": 3714,
+                "startOffset": 26,
+                "endOffset": 59
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"NoAnalysisCardAnalyzerButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2M",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3719,
+            "hash": "dd2a5c5c25635dd8f95dae7d58ba4a9c",
+            "textRange": {
+                "startLine": 3719,
+                "endLine": 3719,
+                "startOffset": 26,
+                "endOffset": 53
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardLabelTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2N",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3724,
+            "hash": "43deeca7989bb7a9b6b83c6b8d33526d",
+            "textRange": {
+                "startLine": 3724,
+                "endLine": 3724,
+                "startOffset": 26,
+                "endOffset": 69
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardExpandedAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2O",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3729,
+            "hash": "d4bf46abb0a5c5cc8d6096d7ddca463d",
+            "textRange": {
+                "startLine": 3729,
+                "endLine": 3729,
+                "startOffset": 26,
+                "endOffset": 70
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardCollapsedAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2P",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3734,
+            "hash": "e8527c9899f2ef38ea46f4fc86262d34",
+            "textRange": {
+                "startLine": 3734,
+                "endLine": 3734,
+                "startOffset": 26,
+                "endOffset": 56
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardHeadlineLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2Q",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3739,
+            "hash": "8957a694de14863852dbb6800721c45e",
+            "textRange": {
+                "startLine": 3739,
+                "endLine": 3739,
+                "startOffset": 26,
+                "endOffset": 59
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardSubHeadlineLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2R",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3744,
+            "hash": "fda51ed918b6efc43689dd381dcb7435",
+            "textRange": {
+                "startLine": 3744,
+                "endLine": 3744,
+                "startOffset": 26,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardReliableReviewsLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2S",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3749,
+            "hash": "e13a7959826b986b8b40d26de1dce536",
+            "textRange": {
+                "startLine": 3749,
+                "endLine": 3749,
+                "startOffset": 26,
+                "endOffset": 60
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardMixedReviewsLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2T",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3754,
+            "hash": "202f5e1490446cecd34a9d73ad5ff157",
+            "textRange": {
+                "startLine": 3754,
+                "endLine": 3754,
+                "startOffset": 26,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardUnreliableReviewsLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2U",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3759,
+            "hash": "a02bc6067e880dc2ab9a0869bc5702f5",
+            "textRange": {
+                "startLine": 3759,
+                "endLine": 3759,
+                "startOffset": 26,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardAdjustedRatingLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2V",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3764,
+            "hash": "17c1631dea2d47b905550d739cd511df",
+            "textRange": {
+                "startLine": 3764,
+                "endLine": 3764,
+                "startOffset": 26,
+                "endOffset": 58
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardHighlightsLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2W",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 3769,
+            "hash": "08fc07f053217bf841fac3640ecbfd16",
+            "textRange": {
+                "startLine": 3769,
+                "endLine": 3769,
+                "startOffset": 26,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ReviewQualityCardLearnMoreButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2X",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4366,
+            "hash": "040014a3454abeca4e554f43875fea9a",
+            "textRange": {
+                "startLine": 4366,
+                "endLine": 4366,
+                "startOffset": 22,
+                "endOffset": 56
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationShareAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2Y",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4371,
+            "hash": "380cc5742e139b088c3c0bf7f77e4f0c",
+            "textRange": {
+                "startLine": 4371,
+                "endLine": 4371,
+                "startOffset": 22,
+                "endOffset": 59
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationShoppingAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2Z",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4376,
+            "hash": "cbd07de3c73294f3a4679dd6df72ec62",
+            "textRange": {
+                "startLine": 4376,
+                "endLine": 4376,
+                "startOffset": 22,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationETPOnSecureAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2e",
+            "rule": "swift:S1192",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4380,
+            "hash": "7ffa330f05f1c3cade94b37aa8a35f96",
+            "textRange": {
+                "startLine": 4380,
+                "endLine": 4380,
+                "startOffset": 17,
+                "endOffset": 71
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 4385,
+                                "endLine": 4385,
+                                "startOffset": 17,
+                                "endOffset": 71
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 4390,
+                                "endLine": 4390,
+                                "startOffset": 17,
+                                "endOffset": 71
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 4395,
+                                "endLine": 4395,
+                                "startOffset": 17,
+                                "endOffset": 71
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal 4 times.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2a",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4381,
+            "hash": "dfc9dc07174b127811bfa02101be5e1a",
+            "textRange": {
+                "startLine": 4381,
+                "endLine": 4381,
+                "startOffset": 22,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationETPOnNotSecureAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2b",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4386,
+            "hash": "d29b82d0c31500cf3ff6fa1704344072",
+            "textRange": {
+                "startLine": 4386,
+                "endLine": 4386,
+                "startOffset": 22,
+                "endOffset": 66
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationETPOffNotSecureAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqq3oxolsF7a3CJzR2c",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 4391,
+            "hash": "06bd786f28d93f6833f8a370a275e732",
+            "textRange": {
+                "startLine": 4391,
+                "endLine": 4391,
+                "startOffset": 22,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TabLocationETPOffSecureAccessibilityLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-09-19T02:35:30+0200",
+            "updateDate": "2023-09-19T02:35:30+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6Pn6JcGxmGjRzyZ",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Theme/LegacyThemeManager/photon-colors.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 27,
+            "hash": "700dcc730f29fcf4e7d7ceac26384315",
+            "textRange": {
+                "startLine": 27,
+                "endLine": 27,
+                "startOffset": 19,
+                "endOffset": 25
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Grey10\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "lmarceau@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-07-06T17:07:00+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz5M",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 97,
+            "hash": "910ba6196facac1efecf8e0380cb86a2",
+            "textRange": {
+                "startLine": 97,
+                "endLine": 97,
+                "startOffset": 30,
+                "endOffset": 61
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"UniversalAuthenticationReasonV2\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "nish.bhasin@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-28T04:07:28+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz5-",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 403,
+            "hash": "ba8d77f6b4424b028870251586d2c7f1",
+            "textRange": {
+                "startLine": 403,
+                "endLine": 403,
+                "startOffset": 30,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"MainTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "nish.bhasin@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-16T22:45:39+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjRz9L",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1644,
+            "hash": "8d29384bfc43bf164829cdd92a836753",
+            "textRange": {
+                "startLine": 1644,
+                "endLine": 1644,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SyncTabsDisabled\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "nishantpatel2718@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-16T19:28:32+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz8H",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1234,
+            "hash": "b9a6436963611441a9f21b15326d5907",
+            "textRange": {
+                "startLine": 1234,
+                "endLine": 1234,
+                "startOffset": 34,
+                "endOffset": 57
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ThoughtProvokingStories\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-15T21:02:43+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz8I",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1239,
+            "hash": "9e2574ef581ea6bdc57245464b579404",
+            "textRange": {
+                "startLine": 1239,
+                "endLine": 1239,
+                "startOffset": 34,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ThoughtProvokingStoriesSubtitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-15T21:02:43+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz54",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 365,
+            "hash": "a6de9ac567426ee0b9d2866148e26ecd",
+            "textRange": {
+                "startLine": 365,
+                "endLine": 365,
+                "startOffset": 30,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"CreditCardSaveSuccessToastMessage\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-12T22:16:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz59",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 394,
+            "hash": "63f01cfc5870a1f6573cb7d3729039bb",
+            "textRange": {
+                "startLine": 394,
+                "endLine": 394,
+                "startOffset": 30,
+                "endOffset": 65
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"CreditCardUpdateSuccessToastMessage\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-06-12T22:16:23+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz57",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 384,
+            "hash": "63246e15140865a68639af818fc89bfe",
+            "textRange": {
+                "startLine": 384,
+                "endLine": 384,
+                "startOffset": 30,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"MainButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-31T21:32:04+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz58",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 389,
+            "hash": "28829854955b25d8a788b783e1f7b132",
+            "textRange": {
+                "startLine": 389,
+                "endLine": 389,
+                "startOffset": 30,
+                "endOffset": 50
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SecondaryButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-31T21:32:04+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz6d",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 597,
+            "hash": "a053b61bf045ef86ca5bcbabc56a051a",
+            "textRange": {
+                "startLine": 597,
+                "endLine": 597,
+                "startOffset": 34,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Title\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-31T14:52:05+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz6e",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 602,
+            "hash": "1205d569c972d32315ffb13d700d7ceb",
+            "textRange": {
+                "startLine": 602,
+                "endLine": 602,
+                "startOffset": 34,
+                "endOffset": 43
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"LearnMore\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-31T14:52:05+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6eg6JcGxmGjR0Ge",
+            "rule": "swift:S1192",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 605,
+            "hash": "cf2584570017ba96a1715ffa02c733d4",
+            "textRange": {
+                "startLine": 605,
+                "endLine": 605,
+                "startOffset": 27,
+                "endOffset": 39
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 1382,
+                                "endLine": 1382,
+                                "startOffset": 27,
+                                "endOffset": 39
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 2158,
+                                "endLine": 2158,
+                                "startOffset": 15,
+                                "endOffset": 27
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 3303,
+                                "endLine": 3303,
+                                "startOffset": 15,
+                                "endOffset": 27
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal 4 times.",
+            "effort": "8min",
+            "debt": "8min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2023-05-31T14:52:05+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz50",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 345,
+            "hash": "ba8d77f6b4424b028870251586d2c7f1",
+            "textRange": {
+                "startLine": 345,
+                "endLine": 345,
+                "startOffset": 30,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"MainTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz51",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 350,
+            "hash": "1fc15986e92b6bf3a72e6053beb9265c",
+            "textRange": {
+                "startLine": 350,
+                "endLine": 350,
+                "startOffset": 30,
+                "endOffset": 36
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Header\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz52",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 355,
+            "hash": "63246e15140865a68639af818fc89bfe",
+            "textRange": {
+                "startLine": 355,
+                "endLine": 355,
+                "startOffset": 30,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"MainButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz53",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 360,
+            "hash": "28829854955b25d8a788b783e1f7b132",
+            "textRange": {
+                "startLine": 360,
+                "endLine": 360,
+                "startOffset": 30,
+                "endOffset": 50
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SecondaryButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6eg6JcGxmGjR0GY",
+            "rule": "swift:S1192",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 363,
+            "hash": "fcdc8f744c69ad7939ff198e84bb6087",
+            "textRange": {
+                "startLine": 363,
+                "endLine": 363,
+                "startOffset": 23,
+                "endOffset": 32
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 392,
+                                "endLine": 392,
+                                "startOffset": 23,
+                                "endOffset": 32
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 1687,
+                                "endLine": 1687,
+                                "startOffset": 15,
+                                "endOffset": 24
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal 3 times.",
+            "effort": "6min",
+            "debt": "6min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz55",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 374,
+            "hash": "ba8d77f6b4424b028870251586d2c7f1",
+            "textRange": {
+                "startLine": 374,
+                "endLine": 374,
+                "startOffset": 30,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"MainTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz56",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 379,
+            "hash": "255f091105cdeee9a46ea2d8b1381707",
+            "textRange": {
+                "startLine": 379,
+                "endLine": 379,
+                "startOffset": 30,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ManageCardsButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "126153378+petrust24@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-24T20:07:11+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjRz9G",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1612,
+            "hash": "d4f5624843093e3deb2e77080d2b1993",
+            "textRange": {
+                "startLine": 1612,
+                "endLine": 1612,
+                "startOffset": 30,
+                "endOffset": 62
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"CloseInactiveTabSwipeActionTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "51127880+paraipan9@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-23T15:42:12+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz5h",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 242,
+            "hash": "52709e569c5d196f31a910547b60db92",
+            "textRange": {
+                "startLine": 242,
+                "endLine": 242,
+                "startOffset": 30,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ExpiresLabel\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-16T20:36:04+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6fW6JcGxmGjR0G4",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/UIConstants.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 32,
+            "hash": "b5c15bbd1b8a6714392fb20b9754eee8",
+            "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 15,
+                "endOffset": 32
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ScreenshotQuality\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "omitchell@mozilla.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-11T19:11:32+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7z",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1101,
+            "hash": "a053b61bf045ef86ca5bcbabc56a051a",
+            "textRange": {
+                "startLine": 1101,
+                "endLine": 1101,
+                "startOffset": 30,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Title\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz70",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1106,
+            "hash": "1b5102112d639f4f493c810199d9f486",
+            "textRange": {
+                "startLine": 1106,
+                "endLine": 1106,
+                "startOffset": 30,
+                "endOffset": 41
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Description\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz71",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1111,
+            "hash": "6aef59d00b6a4e895761d547ebe01666",
+            "textRange": {
+                "startLine": 1111,
+                "endLine": 1111,
+                "startOffset": 30,
+                "endOffset": 36
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Action\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz72",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1119,
+            "hash": "a053b61bf045ef86ca5bcbabc56a051a",
+            "textRange": {
+                "startLine": 1119,
+                "endLine": 1119,
+                "startOffset": 30,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Title\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz73",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1124,
+            "hash": "1b5102112d639f4f493c810199d9f486",
+            "textRange": {
+                "startLine": 1124,
+                "endLine": 1124,
+                "startOffset": 30,
+                "endOffset": 41
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Description\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz74",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1129,
+            "hash": "6aef59d00b6a4e895761d547ebe01666",
+            "textRange": {
+                "startLine": 1129,
+                "endLine": 1129,
+                "startOffset": 30,
+                "endOffset": 36
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Action\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-09T22:37:36+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7v",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1073,
+            "hash": "a2396fdd6a29aaf75689964d5f5d5758",
+            "textRange": {
+                "startLine": 1073,
+                "endLine": 1073,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"FirstInstruction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-08T19:00:03+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7w",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1078,
+            "hash": "a2f7b4b0a04393691818d0d88c17eb31",
+            "textRange": {
+                "startLine": 1078,
+                "endLine": 1078,
+                "startOffset": 30,
+                "endOffset": 47
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SecondInstruction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-08T19:00:03+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7x",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1083,
+            "hash": "a70bf23e914273a24c77e4db0c12fb2c",
+            "textRange": {
+                "startLine": 1083,
+                "endLine": 1083,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ThirdInstruction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-08T19:00:03+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7g",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 989,
+            "hash": "9e4de48206d9624e91bc2e4c42d39c30",
+            "textRange": {
+                "startLine": 989,
+                "endLine": 989,
+                "startOffset": 30,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TitleTreatmentA\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7h",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 994,
+            "hash": "14ca8463c271a08e98acdf44d534c047",
+            "textRange": {
+                "startLine": 994,
+                "endLine": 994,
+                "startOffset": 30,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"DescriptionTreatementA\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7i",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 999,
+            "hash": "8fcdba6e7c9eb7b9767cf641968db12f",
+            "textRange": {
+                "startLine": 999,
+                "endLine": 999,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"GetStartedAction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7j",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1004,
+            "hash": "1905bacae537d12b74d8c03c9819827f",
+            "textRange": {
+                "startLine": 1004,
+                "endLine": 1004,
+                "startOffset": 30,
+                "endOffset": 47
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"ActionTreatementA\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6eg6JcGxmGjR0Gb",
+            "rule": "swift:S1192",
+            "severity": "CRITICAL",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1007,
+            "hash": "026487c694a36d3ecb777b23598489a9",
+            "textRange": {
+                "startLine": 1007,
+                "endLine": 1007,
+                "startOffset": 23,
+                "endOffset": 47
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 1114,
+                                "endLine": 1114,
+                                "startOffset": 23,
+                                "endOffset": 47
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+                            "textRange": {
+                                "startLine": 4042,
+                                "endLine": 4042,
+                                "startOffset": 15,
+                                "endOffset": 39
+                            },
+                            "msg": "Duplication"
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal 3 times.",
+            "effort": "6min",
+            "debt": "6min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7k",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1009,
+            "hash": "31e1497d3dc66d730926c212071c8372",
+            "textRange": {
+                "startLine": 1009,
+                "endLine": 1009,
+                "startOffset": 30,
+                "endOffset": 34
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Skip\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7n",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1027,
+            "hash": "9d30b09d93ba2110f84541cce7a10f1a",
+            "textRange": {
+                "startLine": 1027,
+                "endLine": 1027,
+                "startOffset": 30,
+                "endOffset": 42
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SignInAction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7s",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 1055,
+            "hash": "ce826264c90bd30b8472aa6dcf87397c",
+            "textRange": {
+                "startLine": 1055,
+                "endLine": 1055,
+                "startOffset": 30,
+                "endOffset": 55
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TurnOnNotificationsAction\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T19:00:18+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjRz-Y",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 2099,
+            "hash": "7733a87a992208f28eb8bba9b649ad96",
+            "textRange": {
+                "startLine": 2099,
+                "endLine": 2099,
+                "startOffset": 22,
+                "endOffset": 50
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"FirefoxSyncCreditCardsEngine\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "nish.bhasin@gmail.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-04T14:50:46+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjR0AY",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 2824,
+            "hash": "9e4de48206d9624e91bc2e4c42d39c30",
+            "textRange": {
+                "startLine": 2824,
+                "endLine": 2824,
+                "startOffset": 26,
+                "endOffset": 41
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TitleTreatmentA\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:52:41+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjR0AZ",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 2829,
+            "hash": "00a397b5e30fbc3c2814dd0ea0112ac2",
+            "textRange": {
+                "startLine": 2829,
+                "endLine": 2829,
+                "startOffset": 26,
+                "endOffset": 40
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"BodyTreatmentA\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:52:41+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjR0Aa",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 2835,
+            "hash": "5e6f12104529cbb4c7abeefa0a62bc8c",
+            "textRange": {
+                "startLine": 2835,
+                "endLine": 2835,
+                "startOffset": 26,
+                "endOffset": 41
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"TitleTreatmentB\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:52:41+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ef6JcGxmGjR0Ab",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 2840,
+            "hash": "fc2946bcb050769c0cf0aee732358884",
+            "textRange": {
+                "startLine": 2840,
+                "endLine": 2840,
+                "startOffset": 26,
+                "endOffset": 40
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"BodyTreatmentB\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "4530+thatswinnie@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:52:41+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7U",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 921,
+            "hash": "0e1c9458fedb4259e0d8b09594225357",
+            "textRange": {
+                "startLine": 921,
+                "endLine": 921,
+                "startOffset": 26,
+                "endOffset": 54
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"PrivacyPolicyLinkButtonTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7W",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 933,
+            "hash": "ec1d257f6a329cda1db4d2492636506f",
+            "textRange": {
+                "startLine": 933,
+                "endLine": 933,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"DescriptionPart1\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7X",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 938,
+            "hash": "3fbbc9b54c662ef723d14a3558a6d31c",
+            "textRange": {
+                "startLine": 938,
+                "endLine": 938,
+                "startOffset": 30,
+                "endOffset": 46
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"DescriptionPart2\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7Y",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 946,
+            "hash": "a053b61bf045ef86ca5bcbabc56a051a",
+            "textRange": {
+                "startLine": 946,
+                "endLine": 946,
+                "startOffset": 30,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Title\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7Z",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 951,
+            "hash": "6aef59d00b6a4e895761d547ebe01666",
+            "textRange": {
+                "startLine": 951,
+                "endLine": 951,
+                "startOffset": 30,
+                "endOffset": 36
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"Action\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "key": "AYqGC6ee6JcGxmGjRz7a",
+            "rule": "swift:S115",
+            "severity": "MINOR",
+            "component": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "project": "lucasasantana_firefox-ios",
+            "line": 956,
+            "hash": "198f41711ec6c0fac781ea54f9452b91",
+            "textRange": {
+                "startLine": 956,
+                "endLine": 956,
+                "startOffset": 30,
+                "endOffset": 43
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Rename this constant \"SelectorTitle\" to match the regular expression ^[a-z][a-zA-Z0-9]*$.",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "11182210+adudenamedruby@users.noreply.github.com",
+            "tags": [
+                "convention"
+            ],
+            "creationDate": "2023-05-03T20:29:27+0200",
+            "updateDate": "2023-09-11T22:58:55+0200",
+            "type": "CODE_SMELL",
+            "organization": "lucasasantana",
+            "cleanCodeAttribute": "IDENTIFIABLE",
+            "cleanCodeAttributeCategory": "CONSISTENT",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Theme/LegacyThemeManager/photon-colors.swift",
+            "uuid": "AYqGC5X56JcGxmGjRzOD",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "photon-colors.swift",
+            "longName": "Client/Frontend/Theme/LegacyThemeManager/photon-colors.swift",
+            "path": "Client/Frontend/Theme/LegacyThemeManager/photon-colors.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios",
+            "uuid": "AYqGCOwWPHy7vu7Sk3ow",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "firefox-ios",
+            "longName": "firefox-ios"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/Strings.swift",
+            "uuid": "AYqGC5X66JcGxmGjRzSB",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "Strings.swift",
+            "longName": "Client/Frontend/Strings.swift",
+            "path": "Client/Frontend/Strings.swift"
+        },
+        {
+            "organization": "lucasasantana",
+            "key": "lucasasantana_firefox-ios:Client/Frontend/UIConstants.swift",
+            "uuid": "AYqGC5X66JcGxmGjRzSM",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "UIConstants.swift",
+            "longName": "Client/Frontend/UIConstants.swift",
+            "path": "Client/Frontend/UIConstants.swift"
+        }
+    ],
+    "organizations": [
+        {
+            "key": "lucasasantana",
+            "name": "Lucas Antevere Santana"
+        }
+    ],
+    "facets": []
+}
